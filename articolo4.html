@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo">TheNewFinance</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="articoli.html">Articoli</a></li>
+			<li class="header__menu__item"><a href="">Contatti</a></li>
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>La campagna di Concredito a favore delle aziende turistiche della Versilia</h1>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<article class="panel">
+		<div class="panel__copy">
+			<h2 class="panel__copy__title"></h2>
+			<p class="panel__copy__meta"> 11.08.2019, in <a href="">News</a> by <a href="">Daniele</a></p>
+			<p>A partire dall’ultima settimana di giugno, è stata intrapresa una campagna di sviluppo delle attività turistiche a favore delle pmi della Versilia, con particolare focus su stabilimenti balneari, ristoratori e camping. Sono state già effettuate telefonate e visite a Torre del Lago, Darsena, passeggiata di Viareggio, città giardino e lido di Camaiore mandando successivamente una mail agli interessati con allegato il foglio illustrativo della campagna con le specifiche di prodotti finanziari offerti (a breve e medio lungo termine). Abbiamo allo stato attuale riscontrato un impatto positivo in quanto sono già avvenuti diversi incontri con gli operatori interessati.
+			</p>
+			<p>Altri incontri sono stati confermati e verranno effettuati entro la fine di questo mese. Il dato più interessante rimane il forte interesse di oltre il 20% degli stabilimenti balneari su un totale di 450, con i quali un incontro verrà effettuato a fine stagione; questi stabilimenti verranno contattati a fine agosto e successivamente verranno assegnati alle corrispettive banche di riferimento.
+			</p>
+			<p>Le previsioni dell’iniziativa “Concredito” hanno trovato risposte interessanti e crediamo questo confermi la presa di coscienza degli operatori che investimenti strutturali sono necessari per innalzare la qualità dei servizi offerti. Non è possibile poter continuare solo a vendere sole e mare in una dimensione in cui altre realtà turistiche costiere si stanno attrezzando per adattarsi ai nuovi bisogni del mercato.
+			</p>
+		</div>
+	</article>
+
+
+	<section class="cards clearfix">
+		<div class="card">
+			<img class="card__image"src="https://source.unsplash.com/category/nature/400x260" alt="Nature">
+			<div class="card__copy">
+				<h3>Title Card</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis sequi incidunt optio, asperiores dolorum ratione excepturi. </p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card__image"src="https://source.unsplash.com/category/food/400x260" alt="Nature">
+			<div class="card__copy">
+				<h3>Title Card</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis sequi incidunt optio, asperiores dolorum ratione excepturi. </p>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card__image"src="https://source.unsplash.com/category/people/400x260" alt="Nature">
+			<div class="card__copy">
+				<h3>Title Card</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis sequi incidunt optio, asperiores dolorum ratione excepturi. </p>
+			</div>
+		</div>
+	</section>
+
+
+
+<footer class="footer">
+	<p>Copyright - 2019 Daniele Bergamini</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>

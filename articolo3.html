@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo">TheNewFinance</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="articoli.html">Articoli</a></li>
+			<li class="header__menu__item"><a href="">Contatti</a></li>
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>Un’iniziativa a sostegno del turismo di qualità in Versilia</h1>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<article class="panel">
+		<div class="panel__copy">
+			<h2 class="panel__copy__title"></h2>
+			<p class="panel__copy__meta"> 11.08.2019, in <a href="">News</a> by <a href="">Daniele</a></p>
+			<p>La Versilia è caratterizzata prevalentemente da Pmi che operano nel settore del turismo: Stabilimenti balneari, ristoranti, bar, camping e hotel. Concredito, una boutique specializzata nella mediazione del credito nel settore del Corporate Banking e già convenzionata con primarie banche del territorio si sta concentrando e sta operando nella promozione e sviluppo delle attività turistiche del territorio versiliese. Molte di queste Pmi sono fortemente influenzate dall‘ andamento della stagione estiva che non sempre porta risultati positivi. Il mese di maggio scorso a causa di vari fattori tra i quali il meteo prevalentemente caratterizzato da precipitazioni e un calo generale del turismo in Italia come documentato dall’ Istat, ha provocato in alcune imprese del territorio carenza di liquidità e maggiore difficoltà nel pagare fornitori ad esempio. Concredito si pone tra l’impresa intenzionata ad un finanziamento sia a sostegno di investimenti sia a sostegno di liquidità, e istituti bancari che offrono vari prodotti finanziari che vengono incontro alle esigenze dell’imprenditore.
+			</p>
+			<p>Sostanzialmente i professionisti di ConCredito qualificati e abilitati nel settore, dall’ inizio della stagione estiva hanno portato avanti un’azione di sviluppo nei confronti delle attività turistiche della Versilia per informare che molti istituti bancari hanno predisposto particolari forme di finanziamento dedicate al settore.  Tra le soluzioni selezionate da ConCredito ci sono finanziamenti a breve termine il cui rimborso segue il periodo stagionale e altre linee a sostegno degli investimenti con condizioni economiche riservate alle attività ricettive, balneari e ristoratori.
+			</p>
+			<p>In generale, ConCredito è utile per migliorare il rapporto banca-impresa e facilitare l’accesso al credito; inoltre offre alle imprese la disponibilità di un professionista che non solo gestisce i rapporti con le banche qualora l’impresa voglia chiedere un finanziamento, ma aiuta nella consapevolezza del proprio rating.</p>
+		</div>
+	</article>
+
+<footer class="footer">
+	<p>Copyright - 2019 Daniele Bergamini</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>

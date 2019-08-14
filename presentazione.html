@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo">TheNewFinance</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="articoli.html">Articoli</a></li>
+			<li class="header__menu__item"><a href="">Contatti</a></li>
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>Presentazione</h1>
+
+
+			</div>
+
+		</div>
+	</section>
+
+
+	<article class="panel">
+		<div class="panel__copy">
+			<h2 class="panel__copy__title"></h2>
+			<p>Sono Daniele Bergamini, studente di Finanza del secondo anno di università alla Cass Business school di Londra. In questo blog parlo di Economia e Finanza con uno significativo focus sulle Pmi della Versilia, aera geografica in cui sono nato il 24/08/1998 e cresciuto per circa 19 anni. Al momento vivo a Londra
+				, città in cui studio e ho in mente di lavorare una volta laureato; nonostante ciò, l'attaccamento emotivo, come la speranza e l'ottimismo nella ricrescita della Versilia mi portano a scrivere qualche articolo in merito. La struttura di questo sito web è appunto suddivisa in articoli di vario tipo: alcuni di questi offrono dati e informazioni prettamente economiche sulle condizione delle singole città che compongono l'area. Altri articoli offrono paragoni con altre realtà simili ma che si sono distinte dalla folla con delle soluzioni innovative. Altri ancora sono incentrati sulla descrizione e la potenziale attuazione e successo di prodotti finanziari alternativi al credito bancario tradizionale che in parte ignoti al tessuto economico della zona, in parte a causa dello scetticiscmo caratteristico di imprenditori e commercianti che tirao avanti attività familiari da generazioni, non soo considerati e rimangono solo nei libri di testo di economia.
+			</p>
+		</div>
+	</article>
+
+<footer class="footer">
+	<p>Copyright - 2019 Daniele Bergamini</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>

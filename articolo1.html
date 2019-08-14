@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo">TheNewFinance</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="articoli.html">Articoli</a></li>
+			<li class="header__menu__item"><a href="">Contatti</a></li>
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>Come rilanciare il prodotto Versilia? </h1>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<article class="panel">
+		<div class="panel__copy">
+			<h2 class="panel__copy__title"></h2>
+			<p class="panel__copy__meta"> 11.08.2019, in <a href="">News</a> by <a href="">Daniele</a></p>
+			<p>Il turismo in Versilia ha subito un calo significativo della crescita negli ultimi dieci anni, l’IRPET nel convegno Vacanze Toscana parla di un -5% di presenze. Le imprese più colpite sono decisamente stabilimenti balneari, ristoranti, bar, camping e hotel che rappresentano sostanzialmente il cuore del turismo Versiliese. Il prodotto Versilia è un prodotto sempre da rinnovare così da poter rimanere al passo di una clientela che, come noto, muta continuamente. Per offrire il migliore rapporto qualità prezzo, richiesto sempre più dai consumatori, è opportuno che le imprese investano nelle proprie strutture e nei propri beni e servizi cosi da soddisfare e venire incontro ai bisogni di una clientela sempre più esigente. Solo così il prodotto Versilia potrà rimanere, a lungo termine, una realtà innovativa capace di competere in un panorama internazionale. </p>
+			<p>Anche gli istituti bancari si stanno movimentando positivamente per aiutare e sostenere le pmi locali offrendo finanziamenti a sostegno degli investimenti e liquidità delle imprese.
+				A rivelarlo è ConCredito, una boutique specializzata nella mediazione del credito che con il ruolo di consulenza si pone tra i bisogni del cliente e i prodotti finanziari delle banche, interessata nella crescita e sviluppo economico dell’area locale e impegnata a ridurre le difficoltà nel chiedere un finanziamento. ConCredito è formata da professionisti qualificati e abilitati che capendo le necessità delle pmi, offrono le migliori soluzioni finanziarie attraverso convezioni con i primari istituti di credito.
+			</p>
+			<p>Ad esempio, con un’attenzione particolare alle stagionalità tipica di molte imprese nel settore turistico della Versilia, un finanziamento liquidità con rimborso a 12 mesi di cui 6 di pre-ammortamento o un fido di cassa sono soluzioni che, secondo ConCredito, possono incidere sull’andamento economico di un’azienda in modo significativo. </p>
+			<p>Altri prodotti focalizzati per mantenere liquidità sono i leasing che offrono la possibilità alle imprese di non subire sostanzialmente spese per acquistare un particolare bene e inoltre il noleggio operativo che presenta una flessibilità nei canoni da pagare in linea con il piano di ammortamento. Per ultimo, più recente, è il Peer to Peer lending, che è definito come un prestito erogato all’ interno di una piattaforma online senza passare attraverso i canali tradizionali di banche e altri istituti finanziari e permette spesso tempi di completamento di un contratto più veloci.
+			</p>
+			<p>In questo modo, con investimenti strutturali sostenuti da finanziamenti efficaci, il prodotto Versilia può finalmente essere rilanciato a livello internazionale e vantare servizi innovativi che possono più facilmente incontrare le aspettative della clientela. Solo con investimenti focalizzati nella riqualificazione e innovazione, l’economia del territorio può ripartire e portare effettivi benefici a lungo termine a tutti i comparti.
+			</p>
+		</div>
+	</article>
+
+<footer class="footer">
+	<p>Copyright - 2019 Daniele Bergamini</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>
